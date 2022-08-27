@@ -4,7 +4,7 @@ This is a landing page is a project from the Odin project, which teaches web dev
 
 [project page](https://www.theodinproject.com/lessons/foundations-landing-page)
 <br>
-Example Layout to copy with css:
+Example Layout goal to copy with your own css:
 ![example layout](./project-instruction-images/odin-project.png)
 <br>
 Details for sizing and fonts: 
