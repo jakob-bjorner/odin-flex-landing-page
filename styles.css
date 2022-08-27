@@ -4,3 +4,184 @@ html {
 *, ::before, ::after {
     box-sizing: inherit;
 }
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.subheader,
+.infos,
+.quote,
+.call-to-action {
+    min-height: 400px;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.header ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 18px;
+    color: #E5E7EB;
+}
+
+.header .title {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+.subheader {
+    justify-content: center;
+}
+.subheader .title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+.subheader .text-context,
+.subheader .rudy-linkedin {
+    color: #E5E7EB;
+}
+.subheader .container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.subheader .container .left {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.subheader .container .rudy-linkedin {
+    padding: 8px 32px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display:inline-block;
+    font-weight: bolder;
+} 
+.subheader .container .right {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 0;
+    text-align: right;
+}
+
+.infos {
+    /* align-items: center; */
+    flex-direction: column;
+    color: #1F2937;
+    justify-content: space-evenly;
+}
+.infos .footer,
+.infos .header {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.infos .container {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+.infos .container a {
+    flex:0;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+    text-align: center;
+}
+.info .image img.square {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+.quote .quote-box {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 16px;
+}
+.quote .text-content {
+    align-self: flex-start;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote .quote-attribution {
+    align-self: flex-end;
+    margin-right: 32px;
+}
+
+.call-to-action {
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action .container {
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 32px;
+    color: white;
+}
+.call-to-action .rudy-linkedin {
+    padding: 8px 32px;
+    display: inline-block;
+    font-weight: bolder;
+    border: 2px solid white;
+}
+
+.call-to-action .to-do {
+    font-weight: 900;
+    font-size: larger;
+}
+
+#footer {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img.main-top-image{
+    height: 300px;
+    width: auto;
+}
+
+/* * {
+    border: 1px solid black;
+} */
+
+.dark-background {
+    background-color: #1F2937;
+    color: white;
+}
+.round {
+    border-radius: 10px;
+}
