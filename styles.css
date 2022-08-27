@@ -59,6 +59,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 18px;
 }
 .subheader .container .rudy-linkedin {
     padding: 8px 32px;
@@ -68,10 +69,12 @@ html {
     font-weight: bolder;
 } 
 .subheader .container .right {
-    display: flex;
-    flex-direction: column;
     flex: 0 0 0;
+}
+.subheader .container .image-caption {
     text-align: right;
+    align-self: flex-end;
+    margin-right: -18px;
 }
 
 .infos {
@@ -130,6 +133,7 @@ html {
 .quote .quote-attribution {
     align-self: flex-end;
     margin-right: 32px;
+    font-size: 24px;
 }
 
 .call-to-action {
